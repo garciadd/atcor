@@ -38,9 +38,6 @@ def read_config_file(zip_file, local_path):
     """
     Read a LandSat MTL config file to a Python dict
     """
-
-    print (zip_file)
-    print (local_path)
     tile_path = unzip_zipfile(zip_file, local_path)
 
     # Read config
