@@ -137,7 +137,6 @@ class atcor():
 
             name = srcband.GetDescription()
             b = name.split(' ')[0]
-            print (b)
             arr = srcband.ReadAsArray()
 
             if (self.tile).startswith('LC'):
